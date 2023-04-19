@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itinerary</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class> WECLOME TO YOUR ADVENTURE</h1>
+        <ul class="nav-links">
+        <li class="active"><a href="#"></a>Home</li>
+        <li><a href="#"></a>Tours</li>
+        <li><a href="#"></a>Explore</li>
+        <li><a href="#"></a>About</li>
+        <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="menu-btn.png" alt="" class="menu-btn">
+
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2> Explore Your Itinerary</h2>
+         <div class="line"></div>
+         <h1>A Wonderful Journey</h1>
+         <a href="Ù" class="ctn">Learn More</a>
+        </div>
+    </header>
+    
+    <section class="Events">
+
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img1.png" alt="" >
+                <h4>Cappadocia Hot Air Balloons</h4>
+                <p>A balloon tour is a necessary component of every trip for anybody who appreciates the beauty of the natural world. The breathtaking scenery of Cappadocia mesmerises the traveller as soon as the plane takes off, sometime around daybreak.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="img2.png" alt="" >
+                <h4>Cappadocia Caves</h4>
+                <p>You'll stay in the Cappadocia Caves Hotel which provides service with 32 rooms made out of individual caves and rooms constructed of natural stone, a terrace with a pool overlooking Goreme.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+        <h1>Explore Turkiye</h1>
+        <div class="line"></div>
+        <p>Meet. Explore. Experience</p>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Vacations in Cappadocia provide a totally distinctive experience that is unmatched. The Turkish region of Cappadocia is a topographical paradise known for its characteristic fairy chimneys and charming hidden cave houses. Within the next couple of days you'll explore cappodocia's top attractions as well as local spots.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="img4.png" alt="">
+                    <img src="img5.png" alt="">
+                    <img src="img6.png" alt="">
+                    <img src="img7.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>123 Willow Street, New Zealand | Phone: 000-333-232 | Email:contact@gmail.com</p>
+    </section>
+
+
+   
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.navlinks')
+
+        menuBtn.addEventListener('click',()=>{
+               navlinks.classList.toggle('.mobile-menu')
+        
+    })
+    </script>
+</body>
+</html>
